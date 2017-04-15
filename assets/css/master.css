@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Asar");
+a :visited {
+  color: #80b740 !important;
+}
+body {
+  background: #eaeaea;
+}
+.xkNav nav {
+  background: #fff !important;
+  height: 80px !important;
+  line-height: 80px !important;
+  box-shadow: none !important;
+  z-index: 9999;
+}
+.xkNav .brand-logo {
+  background: #80b740;
+  padding: 0 15px;
+  height: 80px;
+  width: 80px;
+}
+.xkNav .brand-logo i {
+  font-size: 100%;
+  line-height: 80px;
+  padding-left: 8px;
+}
+.xkNav ul a {
+  color: #343434 !important;
+}
+.xkNav ul a:hover {
+  background: transparent !important;
+}
+.xkNav .left {
+  margin-left: 100px;
+}
+.xkNav .left .icon-prefix {
+  color: #343434 !important;
+}
+.xkNav .left .prefix {
+  line-height: 80px !important;
+  color: #343434;
+}
+.xkNav .left .prefix .active {
+  color: #80b740 !important;
+}
+.xkNav .right .userPic {
+  line-height: 80px;
+}
+.xkNav .right .userPic img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 15px;
+  border: 2px solid transparent;
+  transition: all 0.2666s;
+}
+.xkNav .right .userPic img:hover {
+  border: 2px solid #80b740;
+}
+.staticMenu {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  background: #343434;
+  max-height: auto;
+  top: 0;
+  z-index: -2;
+}
+.bodyContent {
+  margin-left: 25%;
+  width: 75%;
+  background: #eaeaea;
+  height: auto;
+  min-height: 100vh;
+  position: absolute;
+  top: 80px;
+}
+.bodyContent .videoHere {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.bodyContent .videoHere iframe {
+  display: block;
+  margin: auto;
+  width: 100%;
+  min-height: 432px;
+  height: auto;
+  box-shadow: 0 100px 120px -40px rgba(0,0,0,0.3);
+}
+.bodyContent .videoHere .videoTitle h1 {
+  font-family: 'Asar', serif;
+  font-size: 36px;
+  color: #343434;
+  text-align: center;
+  padding-top: 80px;
+}
+.bodyContent .videoHere .viewsXK {
+  line-height: 40px;
+  color: #343434;
+  text-align: center;
+}
+.bodyContent .videoHere .viewsXK .x6x {
+  position: relative;
+}
+.bodyContent .videoHere .viewsXK i {
+  position: absolute;
+  left: -30px;
+  top: 6px;
+  opacity: 0.5;
+}
+.bodyContent .videoHere .viewsXK span {
+  color: #343434;
+}
+.bodyContent .videoHere .viewsXK span b {
+  color: #80b740;
+}
+.bodyContent .videoHere .viewsXK .leViews {
+  text-align: right;
+  margin-left: 20px;
+}
+.bodyContent .videoHere .viewsXK .leTime {
+  margin-left: 30px;
+  text-align: left;
+}
+.bodyContent .videoHere .description {
+  opacity: 0.5;
+  transition: all 0.8s;
+}
+.bodyContent .videoHere .description:hover {
+  opacity: 1;
+}
+.leftFixedMenu ul a {
+  color: #eaeaea !important;
+  line-height: 30px;
+  position: relative;
+}
+.leftFixedMenu ul a:hover i {
+  opacity: 1;
+  color: #80b740;
+  transform: scale(1.2);
+}
+.leftFixedMenu ul i {
+  position: absolute;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.leftFixedMenu ul i:hover {
+  opacity: 1;
+}
+.leftFixedMenu ul span {
+  margin-left: 35px;
+}
+.leftFixedMenu .collapsible-header {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #eaeaea;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.leftFixedMenu .collapsible,
+.leftFixedMenu .collapsible-body {
+  border: none;
+  box-shadow: none;
+}
+.leftFixedMenu .collapsible-body {
+  padding: 0.5rem 2rem;
+}
